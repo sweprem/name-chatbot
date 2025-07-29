@@ -5,7 +5,7 @@ An intelligent chatbot that provides investment insights by summarizing company 
 
 ## Project Overview
 
-The **Investor Assistant Bot** is a Python script (`stock_analysis.py`) that uses the Alpha Vantage API to fetch stock ticker symbols and prices, the NewsAPI to retrieve recent news articles, and LangChain with OpenAI's GPT-3.5-turbo to summarize financial data and provide investment advice (Buy/Hold/Sell). The script integrates four tools:
+The **Investor Assistant Bot** is a Python script (`chatbot.py`) that uses the Alpha Vantage API to fetch stock ticker symbols and prices, the NewsAPI to retrieve recent news articles, and LangChain with OpenAI's GPT-3.5-turbo to summarize financial data and provide investment advice (Buy/Hold/Sell). The script integrates four tools:
 1. **Fetch News**: Retrieves recent news articles for a company.
 2. **Fetch Stock Prices**: Fetches real-time stock price data using a dynamically resolved ticker.
 3. **Summarize News**: Generates three financial takeaways from news and stock data.
