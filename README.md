@@ -25,9 +25,7 @@ Before setting up the project, ensure you have the following:
   - **Alpha Vantage API Key**: Obtain a free key from [Alpha Vantage](https://www.alphavantage.co/support/#api-key) (5 calls/minute limit for free tier).
   - **NewsAPI Key**: 
   - **OpenAI API Key**: 
-- **Internet Connection**: Required for API calls.
-- **Text Editor**: Use any editor (e.g., VS Code, PyCharm, or Notepad) to edit the script.
-- **Terminal/Command Prompt**: For running commands and the script.
+
 
 ## Installation Steps
 
@@ -36,13 +34,13 @@ Follow these steps to set up the project locally:
 1. **Create the Project Directory**:
    - Create a directory for the project:
      ```bash
-     mkdir stock-analysis-bot
-     cd stock-analysis-bot
+     mkdir investor-bot
+     cd chatbot
      ```
    - Alternatively, if using Git, clone the repository (if hosted):
      ```bash
      git clone <repository-url>
-     cd stock-analysis-bot
+     cd chatbot
      ```
 
 2. **Set Up a Virtual Environment** (Recommended):
@@ -73,17 +71,17 @@ Follow these steps to set up the project locally:
      You should see details for each package.
 
 4. **Save the Script**:
-   - Create a file named `stock_analysis.py` in the project directory.
+   - Create a file named `chatbot.py` in the project directory.
    - Configure API Keys:
 	Set environment variables for security (recommended):
 	On Windows (Command Prompt):
-	set OPENAI_API_KEY=your_openai_api_key
-	set ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
+	-set OPENAI_API_KEY=your_openai_api_key
+	-set ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
 	
 **Run the Script**
 
 	Execute the script:
-	- python stock_analysis.py
+	- python chatbot.py
 	When prompted, enter a company name (e.g., Tesla).
 	The script will:
 	-Fetch news and stock prices.
